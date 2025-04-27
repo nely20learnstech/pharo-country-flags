@@ -1,3 +1,6 @@
+"
+EarthMap > Display countries
+"
 Class {
 	#name : 'EarthMapCountry',
 	#superclass : 'Object',
@@ -5,6 +8,9 @@ Class {
 		'svgPath',
 		'name',
 		'code'
+	],
+	#classInstVars : [
+		'testStoneAgainstPaperIsWinning'
 	],
 	#category : 'EarthMap',
 	#package : 'EarthMap'
